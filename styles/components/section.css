@@ -46,13 +46,15 @@
   justify-content: space-between;
 }
 
+.section-color{
+  color: #ffffff;
+}
 .section-color .section-body {
   padding: 32px 0;
   flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
   text-align: center;
 }
 .section-hero .section-body .section-content {
