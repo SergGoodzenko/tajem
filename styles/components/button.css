@@ -27,15 +27,14 @@
   width: 100%;
 }
 .button-primary {
-  color: #ffffff;
+  color: #00e0d0;
   background-color: transparent;
-  border:3px solid aqua;
-  
+  border: 3px solid #00e0d0;
 }
 .button-primary:hover {
   color: #151c22;
   background-color: #ffffff;
-  border:3px solid #151c22
+  border: 3px solid #151c22;
 }
 .button-primary-inverse {
   color: #151c22;
@@ -74,9 +73,10 @@
 .button-small {
   padding: 4px 8px;
 }
-.button-play{
- border-radius: 50%;
- background: transparent;
- border:2px solid aqua;
- padding: 32px;
+.button-play {
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #00e0d0;
+  padding: 32px;
+  color: aqua;
 }

@@ -14,3 +14,10 @@
 .row-large > .column {
   padding: 40px;
 }
+
+.header-row {
+  justify-content: space-between;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
