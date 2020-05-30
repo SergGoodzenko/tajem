@@ -77,7 +77,13 @@
 .section-center {
   text-align: center;
 }
-
-.row-list{
-  text-align: left;
+.footer-head{
   align-items: center;
+}
+
+.footer-body, .footer-head{
+  text-align: left;
+}
+.footer-nav {
+  padding:20px 0;
+}

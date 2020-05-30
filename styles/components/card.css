@@ -13,7 +13,9 @@
   font-size: 20px;
   font-weight: 600;
 }
-
+.card-description {
+  padding: 20px auto;
+}
 .card-image {
 }
 .card-image > img {
@@ -22,4 +24,11 @@
 }
 .icon {
   font-size: 82px;
+}
+.icon-map{
+  color:#fff;
+  width: 50px;
+}
+.card-team{
+  border: 1px solid #fff;
 }

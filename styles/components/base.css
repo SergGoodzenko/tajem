@@ -78,7 +78,7 @@ hr {
 }
 li {
   list-style: none;
-  padding: 0;
+  padding: 5px;
 }
 .list {
     padding-left:0;

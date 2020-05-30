@@ -74,9 +74,17 @@
   background-color: #e5e5e5;
   border-style: dashed;
 }
+/*.form {
+  display: flex;
+}*/
 .search-line  {
-  padding: 10px;
+  padding: 10px 0;
+  display:inline-block;
   background-color: transparent;
   font-size: 17px;
   border: 1px solid #fff;
   cursor: pointer;
+}
+  form>.button {
+ display:inline-block;
+  }
