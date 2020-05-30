@@ -9,10 +9,11 @@
 }
 
 .row-large {
-  margin: -40px;
+  margin: -10px -40px;
+
 }
 .row-large > .column {
-  padding: 40px;
+  padding: 10px 40px;
 }
 
 .header-row {

@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  margin: 0;
+  margin: 15px 0;
   border: 1px solid transparent;
   border-radius: 0;
   font-size: 14px;
@@ -81,4 +81,12 @@
 }
 .button-play:hover{
 border: 2px solid aqua;
+}
+
+.button-social{
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #fff;
+  padding:15px;
+
 }

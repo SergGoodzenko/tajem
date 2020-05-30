@@ -4,12 +4,17 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 14px;
-  padding: 10px 30px;
+  
   text-decoration: none;
 }
 .nav-item:hover {
   text-decoration: underline;
 }
 .nav-item.is-active {
+	pointer-events: none;
   text-decoration: underline;
+  color: aqua;
+}
+.nav-fot-item {
+	padding-right:40px;
 }

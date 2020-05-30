@@ -39,7 +39,8 @@
   flex-direction: column;
 }
 
-.section-hero .section-header {
+.section-hero .section-header ,
+.footer-nav{
   padding: 16px 0;
   display: flex;
   align-items: center;
@@ -53,7 +54,7 @@
   padding: 32px 0;
   flex-grow: 1;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   text-align: center;
 }
@@ -77,7 +78,6 @@
   text-align: center;
 }
 
-
-.section-team{
-
-}
+.row-list{
+  text-align: left;
+  align-items: center;
