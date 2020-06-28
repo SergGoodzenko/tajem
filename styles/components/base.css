@@ -73,8 +73,10 @@ h6 {
 hr {
   width: 50px;
   border: none;
-  border-top: 1px solid #00e0d0;
-  border-bottom: 1px solid #40474f;
+  /*border-top: 1px solid #00e0d0;
+  border-bottom: 1px solid #40474f;*/
+height: 2px;
+background-color: #ffffff;
 }
 li {
   list-style: none;
