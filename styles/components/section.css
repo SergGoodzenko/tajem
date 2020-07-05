@@ -4,6 +4,7 @@
 }
 .section-background,
 .section-overlay {
+  display:block;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,4 +87,78 @@
 }
 .footer-nav {
   padding:20px 0;
+}
+_____________________________________________
+@media (min-width: 480px) {
+  .section {
+  padding: 70px 0;
+  position: relative;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-description {
+  text-transform: uppercase;
+}
+
+.section-hero {
+  padding: 0;
+}
+.section-hero .section-foreground {
+  min-height: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-hero .section-header ,
+.footer-nav{
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-color{
+  color: #ffffff;
+}
+.section-color .section-body {
+  padding: 32px 0;
+  flex-grow: 1;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  text-align: center;
+}
+.section-hero .section-body .section-content {
+  max-width: 771px;
+  text-align: center;
+}
+
+.section-video .section-foreground {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.section-video .section-body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-center {
+  text-align: center;
+}
+.footer-head{
+  align-items: center;
+}
+
+.footer-body, .footer-head{
+  text-align: left;
+}
+.footer-nav {
+  padding:20px 0;
+}
 }
