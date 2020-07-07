@@ -1,5 +1,5 @@
 .section {
-  padding: 70px 0;
+  padding: 30px 0;
   position: relative;
 }
 .section-background,
@@ -23,8 +23,8 @@
   z-index: -1;
 }
 .section-title {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .section-description {
@@ -35,12 +35,11 @@
   padding: 0;
 }
 .section-hero .section-foreground {
-  min-height: 570px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.section-hero .section-header ,
 .footer-nav{
   padding: 16px 0;
   display: flex;
@@ -59,13 +58,10 @@
   justify-content: center;
   text-align: center;
 }
-.section-hero .section-body .section-content {
-  max-width: 771px;
-  text-align: center;
-}
+
 
 .section-video .section-foreground {
-  min-height: 300px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
 }
@@ -88,11 +84,10 @@
 .footer-nav {
   padding:20px 0;
 }
-_____________________________________________
+/*_____________________________________________*/
 @media (min-width: 480px) {
   .section {
   padding: 70px 0;
-  position: relative;
 }
 
 .section-title {
@@ -133,7 +128,7 @@ _____________________________________________
   text-align: center;
 }
 .section-hero .section-body .section-content {
-  max-width: 771px;
+  max-width: 300px;
   text-align: center;
 }
 
@@ -160,5 +155,11 @@ _____________________________________________
 }
 .footer-nav {
   padding:20px 0;
+}
+}
+@media (min-width: 480px) {
+.section-hero .section-body .section-content {
+  max-width: 300px;
+  text-align: center;
 }
 }

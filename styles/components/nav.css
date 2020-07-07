@@ -1,4 +1,29 @@
+
+.nav-mobile {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+
+}
 .nav-item {
+  color: #ffffff;
+    font-size: 20px;
+}
+.nav {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .nav {
+    position: relative;
+    display: flex;
+    margin: 20px auto;
+  }
+  .nav-mobile {
+    display: none;
+  }
+  .nav-item {
   display: inline-block;
   color: #ffffff;
   font-size: 16px;
@@ -12,10 +37,10 @@
   text-decoration: underline;
 }
 .nav-item.is-active {
-	pointer-events: none;
+  pointer-events: none;
   text-decoration: underline;
   color: aqua;
 }
 .nav-fot-item {
-	padding-right:40px;
+  padding-right:40px;
 }
